@@ -7,7 +7,7 @@ namespace ServerSideEvents
 
         public List<NotificationMessage> GetNewMessages() {
 
-            Task.Delay(1000).Wait();
+            Task.Delay(5000).Wait();
           
            return new Faker<NotificationMessage>()
                 .RuleFor("Title", f => f.Random.String())
