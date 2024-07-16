@@ -40,6 +40,6 @@ To test the SSE endpoint using Postman, follow these steps:
 3. Click "Send" to initiate the request.
 4. You should see real-time updates in the response as they are pushed from the server.
 
-![Postman](./assets/postman.png)
+![Postman](./assets/postmanTest.png)
 
 
